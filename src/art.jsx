@@ -420,7 +420,7 @@ export function BookCover3D() {
         .book3d-cover {
           position: absolute;
           inset: 0;
-          background-image: url("/assets/capa-ebook.png");
+          background-image: url("${import.meta.env.BASE_URL}assets/capa-ebook.png");
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;

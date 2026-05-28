@@ -492,7 +492,7 @@ export function ProblemSection() {
               </div>
               <div style={{ background: "rgba(255,255,255,0.04)", borderRadius: 14, padding: 0, overflow: "hidden" }}>
                 <img
-                  src="/assets/pisada-comparacao.png"
+                  src={`${import.meta.env.BASE_URL}assets/pisada-comparacao.png`}
                   alt="Comparação de pisada: calcanhar primeiro (errado) vs. meio do pé (certo)"
                   style={{ width: "100%", height: "auto", display: "block", borderRadius: 14 }}
                 />
